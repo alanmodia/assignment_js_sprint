@@ -1,12 +1,5 @@
 // FILL IN THE FUNCTIONS BELOW
 
-// var sprintFunctions = {
-//   largestEl: function(input){
-//     // your code here
-//     console.log(input);
-//     return Math.max(...input);
-//   },
-
 var sprintFunctions = {
 
   largestEl: function(){
@@ -19,12 +12,7 @@ var sprintFunctions = {
   
   reversed: function(){
     var input = arguments[0];
-    // console.log(input);
     // your code here
-    // return (input === '') ? '' : reversed(input.substr(1)) + input.charAt(0);
-    // return (input === '') ? '' : this.(input.substr(1)) + input.charAt(0);
-    // return (input === '') ? '' : (input.substr(1)) + input.charAt(0);
-    // console.log(input.split("").reverse().join(""));
     return input.split("").reverse().join("");
   },
 
